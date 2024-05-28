@@ -1,6 +1,4 @@
-git remote add origin https://github.com/aniketsrinivasan/babyGPT.git
-git branch -M main
-git push -u origin mainFirst Citizen:
+First Citizen:
 Before we proceed any further, hear me speak.
 
 All:
