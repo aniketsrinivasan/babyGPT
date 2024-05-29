@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b99d78a4-91a6-4793-958e-bb7ef1f8d08b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/babyGPT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GPT_inference.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigram_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+    <list default="true" id="b99d78a4-91a6-4793-958e-bb7ef1f8d08b" name="Changes" comment="Committing models.">
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trained_models/hyperparameters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trained_models/model_1.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trained_models/model_2.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transformers/babyGPT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model0_bigram.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_architectures/model0_bigram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model1_selfAttention.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_architectures/model1_selfAttention.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model2_selfAttentionBlock.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_architectures/model2_selfAttentionBlock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model3_selfAttentionResidualBlock.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_architectures/model3_selfAttentionResidualBlock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model4_selfAttentionDecoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_architectures/model4_selfAttentionDecoder.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +56,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/trained_models" />
+      <recent name="$PROJECT_DIR$/model_architectures" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -69,11 +77,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716836731871</updated>
-      <workItem from="1716836738528" duration="3329000" />
+      <workItem from="1716836738528" duration="17555000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit. Implemented Bigram Model.">
+      <option name="closed" value="true" />
+      <created>1716844159260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716844159260</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Committing models.">
+      <option name="closed" value="true" />
+      <created>1716937720461</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716937720461</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit. Implemented Bigram Model." />
+    <MESSAGE value="Committing models." />
+    <option name="LAST_COMMIT_MESSAGE" value="Committing models." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model_architectures/model2_selfAttentionBlock.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
