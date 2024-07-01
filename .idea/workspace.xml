@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b99d78a4-91a6-4793-958e-bb7ef1f8d08b" name="Changes" comment="Committing models.">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trained_models/hyperparameters.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trained_models/model_1.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trained_models/model_2.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transformers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transformers/babyGPT.py" afterDir="false" />
+    <list default="true" id="b99d78a4-91a6-4793-958e-bb7ef1f8d08b" name="Changes" comment="Created babyGPT, added model iterations.">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model0_bigram.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_architectures/model0_bigram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model1_selfAttention.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_architectures/model1_selfAttention.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model2_selfAttentionBlock.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_architectures/model2_selfAttentionBlock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model3_selfAttentionResidualBlock.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_architectures/model3_selfAttentionResidualBlock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model4_selfAttentionDecoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_architectures/model4_selfAttentionDecoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,28 +25,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2h3xnebcIQ9QTVQAJbdHWVNNNxf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/trained_models" />
@@ -77,7 +71,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716836731871</updated>
-      <workItem from="1716836738528" duration="17555000" />
+      <workItem from="1716836738528" duration="17697000" />
+      <workItem from="1716987407561" duration="646000" />
+      <workItem from="1719677176130" duration="29000" />
+      <workItem from="1719705282681" duration="705000" />
+      <workItem from="1719846869256" duration="2127000" />
+      <workItem from="1719865446345" duration="466000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Implemented Bigram Model.">
       <option name="closed" value="true" />
@@ -95,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716937720461</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created babyGPT, added model iterations.">
+      <option name="closed" value="true" />
+      <created>1716986198340</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716986198340</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +111,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit. Implemented Bigram Model." />
     <MESSAGE value="Committing models." />
-    <option name="LAST_COMMIT_MESSAGE" value="Committing models." />
+    <MESSAGE value="Created babyGPT, added model iterations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created babyGPT, added model iterations." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
